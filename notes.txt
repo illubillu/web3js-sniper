@@ -1,0 +1,11 @@
+Sniper bot pseudocode:
+
+//Listen for newly minted pairs
+//If a newly minted pair has enough liquidity:
+    //Make sure you can approve the token for sale
+    //Make sure you can sell the token 
+    
+    //If can approve + sell: 
+        // buy 
+        //search mempool for removeLiquidity, removeLiquidityETH, removeLiquidityWithPermit, etc contract calls 
+        //If found, execute sell with higher gas/gasprice then that txn
