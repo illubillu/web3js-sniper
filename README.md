@@ -12,4 +12,4 @@
 #Implements functionality to monitor the DEX factory of choice for any newly minted token pairs, determine if these tokens were created wiht sufficient liquidity, 
 determine whether the token contract is verified, then submit a buy txn if and only if that is the case
 
-#Implements the ability to look into the mempool via the Blocknative SDK
+#Implements the ability to look into the mempool via the Blocknative SDK, determine if any malicious transactions are waiting to be validated, then ultimately front runs the tx in question.
